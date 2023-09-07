@@ -1,0 +1,235 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Navigation Bar */
+.container-fluid{
+  background-color: #7600bc;
+  padding: 1% 5% 1% 7%;
+}
+
+.navbar-brand{
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.nav-item:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+/* Titles */
+
+h2 {
+  text-align: justify;
+  font-size: 50px;
+  text-align: center;
+  float: left;
+  color: #7600bc;
+  margin: 30px;
+  margin-left: 7%;
+  margin-top: 60px;
+  margin-bottom: 1%;
+}
+
+
+
+/* Used in the Home sections */
+
+.container {
+  display: flex;
+}
+
+/* Home */
+
+.home {
+  display: flex;
+  align-items: center;
+}
+
+#home h1 {
+  text-align: left;
+  font-size: 90px;
+  margin-top: 90px;
+  color: #7600bc;
+  margin-left: 60px;
+}
+
+#home p {
+  text-align: left;
+  font-size: 30px;
+  color: rgb(128, 128, 128);
+  margin: 20px 10px 40px 65px;
+}
+
+.profile_image {
+  border-radius: 50%;
+  width: 310px;
+  height: 310px;
+  vertical-align: middle;
+  margin: 35% 10% 10% 5%;
+}
+
+.bi:hover{
+  color: #c5b3ce;
+}
+
+
+/* Skills */
+
+.all_skills {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-left: 3%;
+
+}
+
+
+.skill:hover {
+  box-shadow: 0 0 0.5rem rgba(0,0,0,.6);
+  background-color: rgb(255, 255, 255)
+}
+.skill img:hover {
+  background-color: black;
+}
+
+.skill {
+  background: #10100fe6;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 15px 55px 10px;
+  width: 1.3in;
+  height: 1.3in;
+  box-shadow: 0 3px 10px gray;
+}
+
+.skill img {
+  border-radius: 50%;
+  height: 70%;
+  width: 70%;
+  margin: 15%;
+}
+
+
+/* Projects */
+
+.row{
+  margin-top: 3%;
+  margin-left: 6%;
+  margin-right: 6%;
+
+}
+
+.item{
+  margin-bottom: 20px;
+}
+
+.card-header{
+  padding: 5%;
+}
+
+.snap{
+  width: 280px;
+  height: 150px;
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -5px;
+  margin-bottom: -20px;
+}
+
+.btns img{
+  margin-left: -80%;
+  padding: 4%;
+}
+
+.demo{
+  margin-right: -25px;
+}
+
+
+
+.btn{
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: #7600bc;
+}
+
+.btn:hover{
+  background-color: #7600bc;
+  color: white;
+}
+
+
+/* Contact */
+
+
+.contact-me{
+  margin: 50px auto 60px;
+  width: 40%;
+  text-align: center;
+  padding: 70px;
+}
+
+
+.contact-me h2, h3{
+  text-align: center;
+  margin: 25px;
+  float: none;
+}
+
+.contact-me button{
+  margin-top: 25px;
+}
+
+
+.bottom-container{
+  background-color: #7600bc;
+  color: #eaf6f6;
+  padding-top: 40px;
+  margin-top: 5%;
+}
+
+
+.footer-link{
+  color: #060007;
+  margin: 10px 5px 5px 60px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.copyright{
+  color: #090112;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: -20px;
+
+}
+
+/* Scroll to Top Button */
+
+.iconbutton{
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #7600bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  cursor: pointer;
+}
