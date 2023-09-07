@@ -7,7 +7,7 @@ This is my personal portfolio website, showcasing my skills, projects, and conta
 
 ## Demo
 
- [Have a look](https://alokverma18.github.io/portfolio/)
+ [Have a look](https://alokverma18.github.io/Portfolio/)
 
 ## Technologies Used
 
